@@ -1,0 +1,82 @@
+.menu {
+    
+    height: inherit;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.header img
+{
+    margin-left: 30px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.post-list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 293px));
+    justify-content: center;
+    grid-gap: 28px;
+}
+
+.post{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    
+}
+
+.post-image{
+    margin: 0;
+}
+
+.post-image img{
+ width: 100%;
+ vertical-align: top;
+}
+
+.post-overlay
+{
+    background: rgb(0, 0, 0, .4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.post:hover .post-overlay{
+    display: flex;
+}
+
+.post-like,
+.post-comment{
+    width: 80px;
+    margin:  5px;
+    text-align: center;
+    font-weight: bold;
+    display:inline-block;
+}
+
+@media screen and (max-width: 768px){
+    .post-list{
+        grid-gap: 3px;
+    }
+}
