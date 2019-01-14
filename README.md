@@ -1,6 +1,7 @@
 # Instagram with CSS grid
 
-![Instagram CSS](/Assets/img/Instagram_Screenshot.jpg)
+![Instagram CSS](https://github.com/LatorreDev/Instagram_CSS/blob/master/Assets/Img/Instagram_Screenshot.jpg "Webpage Screenshot")
+===
 
 ## Designed By David Latorre (Latorredev)
 
